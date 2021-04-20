@@ -1,0 +1,63 @@
+.main-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+.login-card {
+    display: flex;
+    flex-direction: column;
+    // height: 534px;
+    width: 534px;
+    border-radius: 20px;
+    background-color: white;
+    padding: 50px;
+
+    .login-card-name {
+        color: gray;
+        font-family: "Gotham";
+        font-weight: bold;
+        font-size: 40px;
+    }
+
+    form {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        .input-group {
+            width: 100%;
+            margin-bottom: 20px;
+        }
+        .login-input-label {
+            font-family: "Menlo";
+            font-size: 20px;
+            color: gray;
+        }
+        .login-input-field {
+            width: 100%;
+            background-color: gray;
+            border-radius: 5px;
+            height: 81px;
+            color: white;
+            font-size: 20px;
+            border-width: 0;
+        }
+        .forgot-password {
+            color: gray;
+            font-size: 14px;
+        }
+        .login-connect-button {
+            background-color: gray;
+            border-radius: 28px;
+            font-family: "Menlo";
+            font-weight: bold;
+            font-size: 20px;
+            color: #cccccc;
+            padding: 15px 20px;
+        }
+    }
+}

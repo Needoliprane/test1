@@ -1,0 +1,15 @@
+- name: setup  of the api
+  hosts: web 
+  remote_user: needoliprane
+  tasks:
+    - name: clean home
+      shell: "rm -rf test1/"
+    - name: clone repo
+      shell: "git clone https://github.com/Needoliprane/test1.git"
+    - name: install composer0
+      shell: "cd ./test1/back/API/ && ./installComposer.sh"
+    - name: install dependencies
+      shell: "cd ./test1/back/API/ && ./composer.phar update"
+    - name: start API
+      shell: "cd ./test1/back/API/ && /home/needoliprane/.symfony/bin/symfony server:start  --no-tls"
+

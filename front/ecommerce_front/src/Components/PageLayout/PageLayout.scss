@@ -1,0 +1,9 @@
+.page-layout-container {
+	width: 100vw;
+	height: 100vh;
+}
+.page-layout {
+	display: flex;
+	height: calc(100% - 68px);
+	width: 100%;
+}

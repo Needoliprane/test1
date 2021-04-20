@@ -1,0 +1,13 @@
+.page {
+    background-color: #efefef;
+    width: 100%;
+
+    .item-list {
+        margin-top: 20px;
+        display: flex;
+        // justify-content: space-around;
+        .product {
+            margin: 10px;
+        }
+    }
+}

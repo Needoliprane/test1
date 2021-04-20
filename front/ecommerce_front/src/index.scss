@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+        "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+        "Helvetica Neue", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+        monospace;
+}
+
+p {
+    margin: 0;
+}
+
+h1 {
+    margin: 0;
+}
+
+h2 {
+    margin: 0;
+}
+
+.btn {
+    background: linear-gradient(to bottom, #2bb04a 0%, #2bb04a 100%);
+    background-color: #2bb04a;
+    border-color: #2bb04a;
+    color: #fff;
+    width: 100%;
+    border-style: none;
+    padding: 10px;
+    cursor: pointer;
+
+    &.add-to-cart {
+        margin-top: 20px;
+    }
+
+    &.edit {
+        &.save {
+            width: auto;
+        }
+        &.delete {
+            width: auto;
+            background: #e23a05;
+            background-color: #e23a05;
+            border-color: #e23a05;
+        }
+    }
+}
