@@ -6,4 +6,4 @@ php -r "unlink('composer-setup.php');"
 
 ./composer.phar update
 
-/home/doli/.symfony/bin/symfony server:start  --no-tls
+/home/needoliprane/.symfony/bin/symfony server:start  --no-tls
